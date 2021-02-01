@@ -87,6 +87,7 @@ type vendor_alarm_boot_prop, property_type;
 
 
 type vendor_wifi_ftmd_prop, property_type;
+type vendor_wifi_version, property_type;
 
 # WIGIG
 type vendor_wigig_prop, property_type;
@@ -127,8 +128,9 @@ type ctl_vendor_hbtp_prop, property_type;
 # factory properties
 type ctl_vendor_mmid_prop, property_type;
 
-#qdma property
-type vendor_qdma_prop, property_type;
+#qcc property
+#type vendor_qdma_prop, property_type;
+vendor_public_prop(vendor_qcc_prop);
 
 #imsrcsservice
 type ctl_vendor_imsrcsservice_prop, property_type;
